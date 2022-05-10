@@ -59,7 +59,7 @@ const valueChange = () => {
     <img src=${vehicle.image} alt="" width="100" />
     <h3>${vehicle.name}</h3>
     <p>Se ocupan <strong>${vehicle.total}</strong> flete(s)</p>
-    <p>Su emision de CO2 total por el viaje es de <strong>${vehicle.totalEmissions}</strong></p>
+    <p>Su emision de CO2 total por el viaje es de <strong>${vehicle.totalEmissions}</strong> g CO2 / km</p>
   </div>`;
   });
 
