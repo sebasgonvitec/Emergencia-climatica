@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* Plus minus button styler */
+#num-people {
+    text-align: center;
+}
