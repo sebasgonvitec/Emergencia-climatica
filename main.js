@@ -5,7 +5,7 @@ const resultRender = document.getElementById("results");
 
 const vehicleData = [
   {
-    name: "car",
+    name: "Auto",
     emission: 120.1,
     maxPeople: 5,
     maxCargo: 400,
@@ -13,14 +13,14 @@ const vehicleData = [
       "https://seetech-corp.com/wp-content/uploads/2016/10/Car-PNG-File.png",
   },
   {
-    name: "bus",
+    name: "Autobús",
     emission: 1300,
     maxPeople: 40,
     maxCargo: 1280,
     image: "https://www.pngmart.com/files/6/Bus-Transparent-Images-PNG.png",
   },
   {
-    name: "van",
+    name: "Van",
     emission: 180.5,
     maxPeople: 13,
     maxCargo: 750,
@@ -28,14 +28,14 @@ const vehicleData = [
       "https://vans.mercedes-benz.com.mx/vans/es/sprinter/quick-access/body-types/sprinter-tourer/_jcr_content/parsysmeta/meta/image.mq6.png/1647914985000.png",
   },
   {
-    name: "truck",
+    name: "Trailer",
     emission: 1540,
     maxPeople: 2,
     maxCargo: 24000,
     image: "https://www.picng.com/upload/truck/png_truck_23632.png",
   },
   {
-    name: "plane",
+    name: "Avión",
     emission: 115.4,
     maxPeople: 150,
     maxCargo: 4800,
