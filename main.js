@@ -14,3 +14,12 @@ const kmChange = () => {
 const kgChange = () => {
   resultRender.innerHTML = `<p>${numPeople.value} people will need to drive ${numKm.value} km with ${numKg.value} kg</p>`;
 };
+
+const calculateEmission = (people, km, em) => {
+    const emissions = people * km * em;
+    return emissions;
+}
+
+
+
+
